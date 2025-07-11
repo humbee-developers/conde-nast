@@ -1,15 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conde Nast</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div>
-        <p>hello</p>
-    </div>
-    <script src="index.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Conde Nast</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="#" class="logo-link">CONDÉ NAST</a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">LETTER FROM ROGER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">OUR COMMITMENTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">CHARTING THE FUTURE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">OUR STORIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">OUR PEOPLE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">PARTNERSHIPS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">OUR DATA</a>
+                    </li>
+                </ul>
+
+                <!-- Mobile Menu Button -->
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- first section -->
+        <section class="hero">
+            <div class="hero-background">
+                <video
+                    class="hero-video"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                    >
+                    <source src="videos/video1.mp4" type="video/mp4">
+                    <!-- Fallback image if video fails to load -->
+                    <!-- <img
+                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-UbgmTMG1ozQRdoOVYHdbNFefcocD4e.png"
+                        alt="Diversity and inclusion in public transportation"
+                        class="hero-fallback"> -->
+                </video>
+                <!-- <img
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-UbgmTMG1ozQRdoOVYHdbNFefcocD4e.png"
+                    alt="Diversity and inclusion in public transportation"
+                    class="hero-image"> -->
+                <div class="hero-overlay"></div>
+            </div>
+
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Diversity & Inclusion Report
+                        2020</h1>
+                </div>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator">
+                <div class="scroll-arrow"></div>
+            </div>
+        </section>
+
+        <!-- first section over -->
+
+        <script src="index.js"></script>
+    </body>
 </html>
